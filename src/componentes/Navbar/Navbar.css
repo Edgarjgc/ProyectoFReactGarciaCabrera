@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid blueviolet;
+}
+.brand-logo {
+  width: 100px;
+  height: auto;
+  transform: scale(2.8);
+}
+
+li {
+  margin: 16px;
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+li a:hover {
+  color: blueviolet;
+}
+
+li a.active {
+  font-weight: bold;
+}

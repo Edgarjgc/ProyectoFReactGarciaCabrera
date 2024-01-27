@@ -1,0 +1,69 @@
+.contenedorItem {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.contenedorItem .containerLeft {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.contenedorItem .containerLeft img {
+  scale: 0.9;
+  width: 100%;
+}
+
+.containerRight {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 600px;
+}
+
+.containerRight h2 {
+  font-size: 45px;
+  margin: 10px 0;
+  color: blueviolet;
+}
+
+.containerRight .descriptionTitle {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.containerRight .parrafod {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 10px 0;
+}
+
+.containerRight .price {
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 45px;
+  margin: 10px 0;
+}
+
+.goToCartLink {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.goToCartLink:hover {
+  background-color: darkviolet;
+}

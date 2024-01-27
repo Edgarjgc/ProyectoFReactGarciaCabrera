@@ -1,0 +1,36 @@
+.itemCart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.item-info {
+  flex-grow: 1;
+}
+
+.item-name {
+  margin-bottom: 5px;
+}
+
+.item-quantity,
+.item-price {
+  margin: 0;
+  color: #555;
+}
+
+.remove-button {
+  background-color: #ff6666;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 50px;
+}
+
+.remove-button:hover {
+  background-color: black;
+}
